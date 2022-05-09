@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="103048" started-at="2022-05-08T16:59:38 EDT" finished-at="2022-05-08T17:01:21 EDT">
+    <groups>
+    </groups>
+    <test name="Cloud Test" duration-ms="77040" started-at="2022-05-08T16:59:38 EDT" finished-at="2022-05-08T17:00:55 EDT">
+      <class name="test.GeneralStoreTestCLOUD">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.GeneralStoreTestCLOUD@706a04ae]" name="setup" is-config="true" duration-ms="21350" started-at="2022-05-08T16:59:38 EDT" finished-at="2022-05-08T16:59:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FormPageTest()[pri:0, instance:test.GeneralStoreTestCLOUD@706a04ae]" name="FormPageTest" duration-ms="11478" started-at="2022-05-08T16:59:59 EDT" finished-at="2022-05-08T17:00:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormPageTest -->
+        <test-method status="PASS" signature="ProductPageTest()[pri:0, instance:test.GeneralStoreTestCLOUD@706a04ae]" name="ProductPageTest" duration-ms="16905" started-at="2022-05-08T17:00:11 EDT" depends-on-methods="test.GeneralStoreTestCLOUD.FormPageTest" finished-at="2022-05-08T17:00:28 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductPageTest -->
+        <test-method status="PASS" signature="CheckoutPageTest()[pri:0, instance:test.GeneralStoreTestCLOUD@706a04ae]" name="CheckoutPageTest" duration-ms="11782" started-at="2022-05-08T17:00:28 EDT" depends-on-methods="test.GeneralStoreTestCLOUD.ProductPageTest" finished-at="2022-05-08T17:00:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckoutPageTest -->
+        <test-method status="PASS" signature="WebPageTest()[pri:0, instance:test.GeneralStoreTestCLOUD@706a04ae]" name="WebPageTest" duration-ms="14762" started-at="2022-05-08T17:00:39 EDT" depends-on-methods="test.GeneralStoreTestCLOUD.CheckoutPageTest" finished-at="2022-05-08T17:00:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebPageTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test.GeneralStoreTestCLOUD@706a04ae]" name="teardown" is-config="true" duration-ms="546" started-at="2022-05-08T17:00:54 EDT" finished-at="2022-05-08T17:00:55 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.GeneralStoreTestCLOUD -->
+    </test> <!-- Cloud Test -->
+    <test name="Local Test" duration-ms="103048" started-at="2022-05-08T16:59:38 EDT" finished-at="2022-05-08T17:01:21 EDT">
+      <class name="test.GeneralStoreTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.GeneralStoreTest@42eca56e]" name="setup" is-config="true" duration-ms="43681" started-at="2022-05-08T16:59:38 EDT" finished-at="2022-05-08T17:00:21 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FormPageTest()[pri:0, instance:test.GeneralStoreTest@42eca56e]" name="FormPageTest" duration-ms="17765" started-at="2022-05-08T17:00:22 EDT" finished-at="2022-05-08T17:00:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormPageTest -->
+        <test-method status="PASS" signature="ProductPageTest()[pri:0, instance:test.GeneralStoreTest@42eca56e]" name="ProductPageTest" duration-ms="16584" started-at="2022-05-08T17:00:39 EDT" depends-on-methods="test.GeneralStoreTest.FormPageTest" finished-at="2022-05-08T17:00:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductPageTest -->
+        <test-method status="PASS" signature="CheckoutPageTest()[pri:0, instance:test.GeneralStoreTest@42eca56e]" name="CheckoutPageTest" duration-ms="10199" started-at="2022-05-08T17:00:56 EDT" depends-on-methods="test.GeneralStoreTest.ProductPageTest" finished-at="2022-05-08T17:01:06 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckoutPageTest -->
+        <test-method status="PASS" signature="WebPageTest()[pri:0, instance:test.GeneralStoreTest@42eca56e]" name="WebPageTest" duration-ms="13348" started-at="2022-05-08T17:01:06 EDT" depends-on-methods="test.GeneralStoreTest.CheckoutPageTest" finished-at="2022-05-08T17:01:20 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebPageTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test.GeneralStoreTest@42eca56e]" name="teardown" is-config="true" duration-ms="1193" started-at="2022-05-08T17:01:20 EDT" finished-at="2022-05-08T17:01:21 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.GeneralStoreTest -->
+    </test> <!-- Local Test -->
+  </suite> <!-- Test Suite -->
+</testng-results>
